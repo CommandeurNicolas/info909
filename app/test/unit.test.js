@@ -13,7 +13,7 @@ describe('Tests unitaire', () => {
     it('should return 6', () => {
         assert.equal(div(12, 2), '6');
     });
-    it('should return NaN', () => {
-        assert.equal(div(6, 0), 'NaN');
+    it('should return Infinity', () => {
+        assert.equal(div(6, 0), 'Infinity');
     });
 });
